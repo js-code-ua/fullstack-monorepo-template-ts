@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-monorepo-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"yarn workspace client start\" \"yarn workspace server dev\""
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
