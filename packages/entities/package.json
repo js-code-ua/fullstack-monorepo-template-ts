@@ -1,0 +1,21 @@
+{
+  "name": "@internal/entities",
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -b --verbose"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

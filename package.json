@@ -8,8 +8,7 @@
     "dev": "concurrently \"yarn workspace client start\" \"yarn workspace server dev\""
   },
   "workspaces": [
-    "client",
-    "server"
+    "packages/*"
   ],
   "devDependencies": {
     "concurrently": "^9.1.0"
