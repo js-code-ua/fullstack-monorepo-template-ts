@@ -1,4 +1,4 @@
-import { HelloResponse } from "@internal/entities";
+import { HelloResponse } from "@internal/shared-types";
 
 export async function getHelloMessage(): Promise<string> {
     const rsp = await fetch('/test');

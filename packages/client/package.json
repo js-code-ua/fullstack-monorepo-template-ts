@@ -18,7 +18,7 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@internal/entities": "1.0.0"
+    "@internal/shared-types": "1.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

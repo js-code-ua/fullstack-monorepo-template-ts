@@ -1,5 +1,5 @@
 import express from "express";
-import { HelloResponse } from '@internal/entities'
+import { HelloResponse } from '@internal/shared-types'
 
 const port = 3200;
 const app = express();
