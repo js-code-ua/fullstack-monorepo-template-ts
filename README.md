@@ -27,6 +27,10 @@ To add new package to your workspace just update root package.json workspaces pr
   ]
 }
   ```
+ #### How to add new dependency to particular package?
+```shell
+     yarn workspace server add @internal/entities
+```
 
  #### How to start single workspace package?
 
