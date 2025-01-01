@@ -4,6 +4,16 @@
 Yarn workspaces been used to handle packages in the monorepo.
 [More here](https://yarnpkg.com/features/workspaces)
 
+#### How to start the project ? (Run CMDs in the project root directory)
+1. Install all dependencies:
+```shell
+  yarn install
+```
+2. Start the project
+```shell
+  yarn dev
+```
+
 #### How to add new package to your workspace?
 To add new package to your workspace just update root package.json workspaces property with new item.
 
